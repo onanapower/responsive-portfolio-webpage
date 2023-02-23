@@ -297,3 +297,23 @@ footer p:nth-child(2) {
   bottom: 35px;
   font-size: 14px;
 }
+.img-fluid {
+  width: 100%;
+  height: 100px;
+  object-position: center;
+  object-fit: cover;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 10px;
+  grid-template-rows: 10rem;
+  row-gap: 10px;
+  margin: 0 1rem;
+}
+grid > div {
+  position: relative;
+}
+grid > div > h2 {
+  position: absolute;
+}
